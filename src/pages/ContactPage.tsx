@@ -14,7 +14,7 @@ import {
 
 const ContactPage = () => {
   const contactMethods = [
-    { icon: Mail, title: 'Email Support', description: 'Get help via email within 24 hours', contact: 'support@aivatarstudio.com', gradient: 'from-blue-500 to-cyan-500' },
+    { icon: Mail, title: 'Email Support', description: 'Get help via email within 24 hours', contact: 'support@pixauraai.com', gradient: 'from-blue-500 to-cyan-500' },
     { icon: Phone, title: 'Phone Support', description: 'Speak directly with our experts', contact: '+1 (555) 123-4567', gradient: 'from-purple-500 to-pink-500' },
     { icon: MessageSquare, title: 'Live Chat', description: '24/7 instant support chat', contact: 'Available Now', gradient: 'from-green-500 to-teal-500' },
     { icon: MapPin, title: 'Office Location', description: 'Visit our headquarters', contact: 'San Francisco, CA', gradient: 'from-orange-500 to-red-500' }

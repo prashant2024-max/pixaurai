@@ -89,7 +89,7 @@ const Footer = () => {
                   ? 'from-blue-400 to-purple-400'
                   : 'from-blue-600 to-purple-600'
               }`}>
-                AIvatarStudio
+                Pixaura AI
               </span>
             </Link>
 
@@ -123,7 +123,7 @@ const Footer = () => {
                 <Mail className={`w-4 h-4 mr-3 ${
                   isDark ? 'text-blue-400' : 'text-blue-600'
                 }`} />
-                <span>hello@aivatarstudio.com</span>
+                <span>hello@pixauraai.com</span>
               </div>
             </div>
 
