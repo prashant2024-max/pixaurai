@@ -206,7 +206,7 @@ const LearningPage = () => {
                   <div className="p-6">
                     <div className="flex items-center mb-4">
                       <div className={`p-2 rounded-lg bg-gradient-to-br ${path.gradient} bg-opacity-20 border border-gray-200 dark:border-gray-700 mr-3`}>
-                        <Icon className={`w-5 h-5 bg-gradient-to-br ${path.gradient} bg-clip-text text-transparent`} />
+                        <Icon className={`w-5 h-5 bg-gradient-to-br ${path.gradient} bg-clip-text text-transparent`} fill='white'/>
                       </div>
                       <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{path.title}</h3>
                     </div>
@@ -245,7 +245,7 @@ const LearningPage = () => {
               return (
                 <motion.div key={resource.type} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: index * 0.1 }} viewport={{ once: true }} whileHover={{ y: -5 }} className="bg-white dark:bg-gray-800/50 rounded-xl p-6 border border-gray-200 dark:border-gray-700 hover:border-gray-600 transition-all duration-300 text-center">
                   <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-br ${resource.gradient} bg-opacity-20 border border-gray-200 dark:border-gray-700 mb-4`}>
-                    <Icon className={`w-8 h-8 bg-gradient-to-br ${resource.gradient} bg-clip-text text-transparent`} />
+                    <Icon className={`w-8 h-8 bg-gradient-to-br ${resource.gradient} bg-clip-text text-transparent`} fill='white'/>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">{resource.title}</h3>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">{resource.description}</p>

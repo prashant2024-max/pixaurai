@@ -1,18 +1,15 @@
 import { motion } from 'framer-motion';
 import { Play, Sparkles, ArrowRight } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import bgvideo from '../assets/images/bgvideo.mp4'
  
 const Hero = () => {
   const { isDark } = useTheme();
 
   return (
-    <section className={`relative min-h-screen flex items-center justify-center overflow-hidden transition-colors duration-300 ${
-      isDark 
-        ? 'bg-gradient-to-br from-gray-900 via-gray-900 to-blue-900'
-        : 'bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50'
-    }`}>
+    <section className={`relative min-h-screen flex items-center justify-center overflow-hidden transition-colors duration-300`}>
       {/* Background Elements */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         <div className={`absolute top-20 left-10 w-72 h-72 rounded-full blur-3xl ${
           isDark ? 'bg-blue-500/20' : 'bg-blue-500/10'
         }`}></div>
@@ -22,14 +19,14 @@ const Hero = () => {
         <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-to-r from-transparent to-transparent ${
           isDark ? 'via-cyan-500/5' : 'via-cyan-500/3'
         }`}></div>
-      </div>
+      </div> */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="space-y-8"
+          className="space-y-8 backdrop-blur-sm bg-gradient-to-r from-blue-500/20 to-purple-500/20 border-blue-500/30 p-10 rounded-2xl"
         >
           <motion.div
             initial={{ scale: 0.9 }}
@@ -138,6 +135,11 @@ const Hero = () => {
             </div> */}
           </motion.div>
         </motion.div>
+      </div>
+
+
+      <div className='w-full h-full absolute inset-0'>
+        <video src={bgvideo} className='w-full h-full object-cover' autoPlay loop playsInline muted preload='auto'></video>
       </div>
     </section>
   );

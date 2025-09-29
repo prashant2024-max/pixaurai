@@ -7,7 +7,7 @@ import Vision from '../components/Vision';
 import UseCasesSlider from '../components/UseCasesSlider';
 import Banner from '../components/Banner';
 import ImageUploader from '../components/ImageUploader';
-import PricingPage from './PricingPage';
+import HomePrice from '../components/HomePrice';
 
 const HomePage = () => {
   return (
@@ -18,7 +18,7 @@ const HomePage = () => {
       <UseCasesSlider />
       <ImageUploader />
       <Testimonials />
-      <PricingPage />
+      <HomePrice />
       <ClientLogos />
       <Vision />
       {/* <Banner /> */}

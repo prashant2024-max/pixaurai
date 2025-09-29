@@ -117,8 +117,8 @@ const Navigation = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className={`md:hidden py-4 border-t ${
-              isDark ? 'border-gray-800' : 'border-gray-200'
+            className={`md:hidden py-4 border-t  ${
+              isDark ? 'border-gray-800 bg-gray-900' : 'border-gray-200 bg-gray-200 px-3'
             }`}
           >
             {navItems.map((item) => (

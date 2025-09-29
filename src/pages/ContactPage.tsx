@@ -60,7 +60,7 @@ const ContactPage = () => {
               return (
                 <motion.div key={method.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: index * 0.1 }} viewport={{ once: true }} whileHover={{ y: -5 }} className="bg-white dark:bg-gray-800 rounded-2xl p-8 border border-gray-200 dark:border-gray-700 hover:border-gray-400 transition-all duration-300 text-center">
                   <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-br ${method.gradient} bg-opacity-20 border border-white/10 mb-6`}>
-                    <Icon className={`w-8 h-8 bg-gradient-to-br ${method.gradient} bg-clip-text text-transparent`} />
+                    <Icon className={`w-8 h-8 bg-gradient-to-br ${method.gradient} bg-clip-text text-transparent`} fill='white'/>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-3">{method.title}</h3>
                   <p className="text-gray-500 dark:text-gray-300 mb-4">{method.description}</p>
@@ -135,7 +135,7 @@ const ContactPage = () => {
                       <motion.div key={type.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: index * 0.1 }} viewport={{ once: true }} className="bg-white dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700">
                         <div className="flex items-start space-x-4">
                           <div className={`p-3 rounded-lg bg-gradient-to-br ${type.gradient} bg-opacity-20 border border-white/10`}>
-                            <Icon className={`w-6 h-6 bg-gradient-to-br ${type.gradient} bg-clip-text text-transparent`} />
+                            <Icon className={`w-6 h-6 bg-gradient-to-br ${type.gradient} bg-clip-text text-transparent`} fill='white'/>
                           </div>
                           <div className="flex-1">
                             <div className="flex items-center justify-between mb-2">

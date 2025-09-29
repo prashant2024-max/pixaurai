@@ -185,7 +185,7 @@ const ServicesPage = () => {
                   <div className="space-y-6">
                     <div className="flex items-center space-x-4">
                       <div className={`p-4 rounded-2xl bg-gradient-to-br ${service.bgGradient} border border-white/10`}>
-                        <Icon className={`w-8 h-8 bg-gradient-to-br ${service.gradient} bg-clip-text text-transparent`} />
+                        <Icon className={`w-8 h-8 bg-gradient-to-br ${service.gradient} bg-clip-text text-transparent`} fill='white'/>
                       </div>
                       <div>
                         <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -290,7 +290,7 @@ const ServicesPage = () => {
                   className="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-8 border border-gray-700 hover:border-gray-600 transition-all duration-300"
                 >
                   <div className={`inline-flex p-4 rounded-xl bg-gradient-to-br ${service.gradient} bg-opacity-20 border border-white/10 mb-6`}>
-                    <Icon className={`w-8 h-8 bg-gradient-to-br ${service.gradient} bg-clip-text text-transparent`} />
+                    <Icon className={`w-8 h-8 bg-gradient-to-br ${service.gradient} bg-clip-text text-transparent`} fill='white'/>
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                     {service.title}
@@ -325,7 +325,7 @@ const ServicesPage = () => {
                   className="text-center bg-gray-50 dark:bg-gray-800 rounded-2xl p-6"
                 >
                   <div className="inline-flex p-4 bg-gray-200 dark:bg-gray-700 rounded-2xl mb-4">
-                    <Icon className="w-8 h-8 text-blue-500 dark:text-blue-400" />
+                    <Icon className="w-8 h-8 text-blue-500 dark:text-blue-400" fill='white'/>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                     {benefit.title}

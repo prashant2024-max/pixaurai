@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Play, Users, GraduationCap, Briefcase, Gamepad2 } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import Slide1 from '../assets/images/slide1.jpg'
+import Slide2 from '../assets/images/slide2.jpg'
+import Slide3 from '../assets/images/slide3.jpg'
+import Slide4 from '../assets/images/slide4.jpg'
 
 const UseCasesSlider = () => {
   const { isDark } = useTheme();
@@ -14,7 +18,7 @@ const UseCasesSlider = () => {
       title: 'Content Creators',
       subtitle: 'Streamline Your Production',
       description: 'Create consistent avatars for your brand, clone your voice for multiple languages, and generate video content at scale without the need for expensive equipment.',
-      image: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
+      image: Slide1,
       gradient: 'from-red-500 to-pink-500',
       features: ['Brand Consistency', 'Multi-language Content', 'Scalable Production']
     },
@@ -24,7 +28,7 @@ const UseCasesSlider = () => {
       title: 'Education',
       subtitle: 'Engaging Learning Experiences',
       description: 'Transform traditional education with AI avatars that can teach in any language, making learning more interactive and accessible for students worldwide.',
-      image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
+      image: Slide2,
       gradient: 'from-blue-500 to-cyan-500',
       features: ['Interactive Teaching', 'Multi-language Support', 'Personalized Learning']
     },
@@ -34,7 +38,7 @@ const UseCasesSlider = () => {
       title: 'Business Presentations',
       subtitle: 'Professional Communication',
       description: 'Elevate your corporate communications with professional AI avatars for training videos, product demos, and internal communications.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
+      image: Slide3,
       gradient: 'from-purple-500 to-indigo-500',
       features: ['Corporate Training', 'Product Demos', 'Global Reach']
     },
@@ -44,7 +48,7 @@ const UseCasesSlider = () => {
       title: 'Gaming & Entertainment',
       subtitle: 'Immersive Experiences',
       description: 'Create unique characters and NPCs for games, virtual events, and entertainment platforms with lifelike avatars and natural voice acting.',
-      image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
+      image: Slide4,
       gradient: 'from-green-500 to-teal-500',
       features: ['Character Creation', 'Voice Acting', 'Virtual Events']
     }

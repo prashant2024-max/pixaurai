@@ -164,7 +164,7 @@ const UseCasesPage = () => {
                   <div className="p-8">
                     <div className="flex items-center mb-4">
                       <div className={`p-3 rounded-xl bg-gradient-to-br ${useCase.gradient} bg-opacity-20 border border-white/10 mr-4`}>
-                        <Icon className={`w-6 h-6 bg-gradient-to-br ${useCase.gradient} bg-clip-text text-transparent`} />
+                        <Icon className={`w-6 h-6 bg-gradient-to-br ${useCase.gradient} bg-clip-text text-transparent`} fill='white'/>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                         {useCase.title}
