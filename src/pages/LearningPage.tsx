@@ -8,7 +8,7 @@ import {
   Clock,
   Star,
   ArrowRight,
-  Lightbulb,
+  // Lightbulb,
   FileText,
   Video,
   Headphones

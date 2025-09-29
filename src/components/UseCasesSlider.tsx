@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Play, Users, GraduationCap, Briefcase, Gamepad2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Play, GraduationCap, Briefcase, Gamepad2 } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import Slide1 from '../assets/images/slide1.jpg'
 import Slide2 from '../assets/images/slide2.jpg'
